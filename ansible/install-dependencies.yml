@@ -23,7 +23,7 @@
         && unzip -d ~/.local/bin /tmp/terraform.zip
         && rm -f /tmp/terraform.zip
       environment:
-        TERRAFORM_VERSION: 0.12.12
+        TERRAFORM_VERSION: 0.14.6
       args:
         creates: ~/.local/bin/terraform
         warn: False

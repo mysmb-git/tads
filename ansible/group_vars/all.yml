@@ -39,10 +39,10 @@ letsencrypt: True
 # You should list all domain names that you use in the "domains" dict
 # This dict will be used by Ansible to hardcode them in /etc/hosts when you use local environments (localhost or vagrant)
 # That is why it is also recommended to use a "domains_tld" variable, so you don't have to repeat yourself in other group_vars files
-domains_tld: com
+domains_tld: xyz
 domains:
-  main: "yourcompany.{{ domains_tld }}"
-  main_www: "www.yourcompany.{{ domains_tld }}"
+  main: "nerd411.{{ domains_tld }}"
+  main_www: "www.nerd411.{{ domains_tld }}"
 
 # Bind mounts
 # Must only be used in localhost environment

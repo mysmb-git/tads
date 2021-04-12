@@ -19,7 +19,7 @@
     - role: geerlingguy.docker
       vars:
         docker_package_state: present
-        docker_install_compose: False
+        docker_install_compose: true
 
   post_tasks:
     - name: Ensure current user is added to the docker group

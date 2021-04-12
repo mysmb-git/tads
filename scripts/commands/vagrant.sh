@@ -10,7 +10,7 @@ readonly SELF_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 readonly SELF_NAME="$(basename "${BASH_SOURCE[0]}")"
 readonly ROOT_PATH="$(cd "${SELF_PATH}/../.." && pwd)"
 
-readonly TADS_MIN_VAGRANT_VERSION="2.0"
+readonly TADS_MIN_VAGRANT_VERSION="2.2.15"
 
 # shellcheck source=scripts/includes/common.sh
 source "${SELF_PATH}/../includes/common.sh"
