@@ -18,8 +18,8 @@ source "${SELF_PATH}/../includes/localhost_ansible.sh"
 
 main () {
     local no_password=false
-    local force=false
-    local dev_dependencies=false
+    local force=true
+    local dev_dependencies=true
 
     local options
     options=$(getopt --longoptions no-password,force,dev, --options "" -- "$@")
